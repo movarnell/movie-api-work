@@ -56,3 +56,25 @@ movieCard = `<div class="col-lg-3 col-md-5 col-sm-12">
 moviesElement.innerHTML += movieCard;
 }
 }
+
+
+// THIS CODE FORMATS FOR PULLING OUT FOR ARRAY WITH EACH PROPERTY
+// let movieCard = ``;
+// function ShowMeTheMoney(){
+// for (let i=0; i < movieArray.length; i++) {
+//     console.log(movieArray[i])
+// movieCard = `<div class="col-lg-3 col-md-5 col-sm-12">
+// <div class="card shadow">
+// { 
+//   title: "${movieArray[i].title}",
+//  posterURL: "${movieArray[i].posterURL}",
+//   releaseDate: ${movieArray[i].releaseDate},
+//   overview: "${movieArray[i].overview}",
+//   rating: ${movieArray[i].rating},
+// }
+//   </div>`;
+
+//    const moviesElement = document.querySelector('#movies');
+// moviesElement.innerHTML += movieCard;
+// }
+// }
